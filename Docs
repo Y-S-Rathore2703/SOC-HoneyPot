@@ -1,0 +1,123 @@
+# 🛡️ Day 1 — Lab Preparation & Environment Setup
+
+> **Project:** Wazuh Honeypot SOC Lab
+> **Platform:** Oracle VirtualBox
+> **Focus:** Environment preparation and lab planning
+> **Status:** In Progress
+
+---
+
+## 🎯 Today's Objectives
+
+* Prepare the GitHub project documentation.
+* Inspect the existing Ubuntu virtual machine.
+* Check available system resources.
+* Plan a safe virtual network for the lab.
+* Document the initial environment.
+
+## ✅ Task Checklist
+
+### 01 — GitHub Setup
+
+* [ ] Create the `wazuh-honeypot-soc-lab` repository.
+* [ ] Add the main `README.md`.
+* [ ] Create the `docs/` folder.
+* [ ] Add this Day 1 checklist.
+* [ ] Create a `screenshots/` folder for project evidence.
+
+### 02 — VirtualBox Inspection
+
+* [ ] Open Oracle VirtualBox.
+* [ ] Locate the existing Ubuntu virtual machine.
+* [ ] Check whether the VM starts successfully.
+* [ ] Open the VM's Settings.
+* [ ] Record the allocated RAM and CPU cores.
+* [ ] Check the virtual disk size and available host storage.
+* [ ] Take a screenshot of the VM details.
+
+### 03 — Ubuntu Verification
+
+* [ ] Start Ubuntu, if it is not already running.
+
+* [ ] Open the Terminal.
+
+* [ ] Check the operating system:
+
+  ```bash
+  cat /etc/os-release
+  ```
+
+* [ ] Check memory:
+
+  ```bash
+  free -h
+  ```
+
+* [ ] Check available disk space:
+
+  ```bash
+  df -h
+  ```
+
+* [ ] Check network interfaces:
+
+  ```bash
+  ip addr
+  ```
+
+* [ ] Save the useful outputs in your notes.
+
+### 04 — Security Lab Planning
+
+* [ ] Identify the role of the Ubuntu VM.
+* [ ] Decide whether an additional VM will be needed for Wazuh.
+* [ ] Plan an isolated network for future honeypot experiments.
+* [ ] Avoid exposing vulnerable services to the public internet.
+* [ ] Do not change the current network configuration until the lab plan is clear.
+
+### 05 — Documentation & Evidence
+
+* [ ] Add the VM details to the project notes.
+* [ ] Save a screenshot of VirtualBox.
+* [ ] Save a screenshot of Ubuntu running.
+* [ ] Record any errors or questions.
+* [ ] Commit the completed notes and screenshots to GitHub.
+
+---
+
+## 📝 Environment Notes
+
+| Item                | Details           |
+| ------------------- | ----------------- |
+| Host OS             | Windows           |
+| Virtualization      | Oracle VirtualBox |
+| Existing VM         | Ubuntu            |
+| Ubuntu version      | To be verified    |
+| RAM allocated       | To be recorded    |
+| CPU cores allocated | To be recorded    |
+| Virtual disk size   | To be recorded    |
+| Network mode        | To be inspected   |
+
+## 🏁 Day 1 Completion Criteria
+
+Day 1 is complete when:
+
+* [ ] The Ubuntu VM is identified and its configuration is documented.
+* [ ] The basic system checks are completed.
+* [ ] The GitHub checklist and initial evidence are uploaded.
+* [ ] A safe plan for the lab network is documented.
+
+## 📚 What I Learned
+
+*Complete this section after finishing the tasks.*
+
+* What I learned about VirtualBox:
+* What I learned about my Ubuntu VM:
+* Problems encountered:
+* Questions for Day 2:
+
+---
+
+**Next:** Day 2 — Virtual Machine Resources & Network Planning
+
+*Learn • Practice • Analyze • Defend*
